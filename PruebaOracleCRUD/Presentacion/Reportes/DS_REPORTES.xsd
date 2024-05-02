@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_REPORTES" targetNamespace="http://tempuri.org/DS_REPORTES.xsd" xmlns:mstns="http://tempuri.org/DS_REPORTES.xsd" xmlns="http://tempuri.org/DS_REPORTES.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_REPORTES" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DS_REPORTES" msprop:Generator_DataSetName="DS_REPORTES">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="listado_pr" msprop:Generator_RowEvHandlerName="listado_prRowChangeEventHandler" msprop:Generator_RowDeletedName="listado_prRowDeleted" msprop:Generator_RowDeletingName="listado_prRowDeleting" msprop:Generator_RowEvArgName="listado_prRowChangeEvent" msprop:Generator_TablePropName="listado_pr" msprop:Generator_RowChangedName="listado_prRowChanged" msprop:Generator_RowChangingName="listado_prRowChanging" msprop:Generator_TableClassName="listado_prDataTable" msprop:Generator_RowClassName="listado_prRow" msprop:Generator_TableVarName="tablelistado_pr" msprop:Generator_UserTableName="listado_pr">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo_pr" msprop:Generator_ColumnPropNameInRow="codigo_pr" msprop:Generator_ColumnPropNameInTable="codigo_prColumn" msprop:Generator_ColumnVarNameInTable="columncodigo_pr" msprop:Generator_UserColumnName="codigo_pr" type="xs:string" minOccurs="0" />
+              <xs:element name="description_pr" msprop:Generator_ColumnPropNameInRow="description_pr" msprop:Generator_ColumnPropNameInTable="description_prColumn" msprop:Generator_ColumnVarNameInTable="columndescription_pr" msprop:Generator_UserColumnName="description_pr" type="xs:string" minOccurs="0" />
+              <xs:element name="marca_pro" msprop:Generator_ColumnPropNameInRow="marca_pro" msprop:Generator_ColumnPropNameInTable="marca_proColumn" msprop:Generator_ColumnVarNameInTable="columnmarca_pro" msprop:Generator_UserColumnName="marca_pro" type="xs:string" minOccurs="0" />
+              <xs:element name="medida_pr" msprop:Generator_ColumnPropNameInRow="medida_pr" msprop:Generator_ColumnPropNameInTable="medida_prColumn" msprop:Generator_ColumnVarNameInTable="columnmedida_pr" msprop:Generator_UserColumnName="medida_pr" type="xs:string" minOccurs="0" />
+              <xs:element name="description_ca" msprop:Generator_ColumnPropNameInRow="description_ca" msprop:Generator_ColumnPropNameInTable="description_caColumn" msprop:Generator_ColumnVarNameInTable="columndescription_ca" msprop:Generator_UserColumnName="description_ca" type="xs:string" minOccurs="0" />
+              <xs:element name="stock_actual" msprop:Generator_ColumnPropNameInRow="stock_actual" msprop:Generator_ColumnPropNameInTable="stock_actualColumn" msprop:Generator_ColumnVarNameInTable="columnstock_actual" msprop:Generator_UserColumnName="stock_actual" type="xs:string" minOccurs="0" />
+              <xs:element name="codico_ca" msprop:Generator_ColumnPropNameInRow="codico_ca" msprop:Generator_ColumnPropNameInTable="codico_caColumn" msprop:Generator_ColumnVarNameInTable="columncodico_ca" msprop:Generator_UserColumnName="codico_ca" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
